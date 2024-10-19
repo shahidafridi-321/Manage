@@ -3,6 +3,7 @@ import { NavItems } from "./NavItems";
 import { Logo } from "./Logo";
 import { GetStartedBtn } from "./GetStartedBtn";
 
+
 export const Nav = () => {
 	return (
 		<nav className="container relative mx-auto p-6">
