@@ -4,4 +4,5 @@ export const navItems = [
 	"About us",
 	"Careers",
 	"Community",
+	"Contact us"
 ];
