@@ -1,6 +1,7 @@
 import React from "react";
 import { navItems } from "../data/data";
 
+
 export const NavItems = () => {
 	let navItemList = navItems.map((item) => (
 		<a href="#" className="hover:text-blue-500" key={item}>
