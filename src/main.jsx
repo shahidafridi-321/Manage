@@ -7,16 +7,15 @@ import { Managment } from "./components/Managment";
 import { CTA } from "./components/CTA";
 import { Footer } from "./components/Footer";
 
-
 import "./index.css";
 
 createRoot(document.getElementById("root")).render(
 	<StrictMode>
 		<Nav />
 		<Hero />
-    <Testimonial />
-    <Managment/>
-    <CTA />
+		<Testimonial />
+		<Managment />
+		<CTA />
 		<Footer />
 	</StrictMode>
 );
