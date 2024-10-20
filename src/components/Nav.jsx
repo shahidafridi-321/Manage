@@ -10,7 +10,7 @@ export const Nav = () => {
 			<div className="flex items-center justify-between">
 				<Logo />
 				<NavItems />
-        <GetStartedBtn/>
+        
 			</div>
 		</nav>
 	);

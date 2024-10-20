@@ -1,5 +1,6 @@
 import React from "react";
 import { ManagementCards } from "./ManagementCards";
+import { GetStartedBtn } from "./GetStartedBtn";
 
 export const Managment = () => {
 	return (
@@ -9,6 +10,9 @@ export const Managment = () => {
 					What&apos;s Different About Manage?
 				</h2>
 				<ManagementCards />
+				<div className="my-16">
+					<GetStartedBtn />
+				</div>
 			</div>
 		</section>
 	);

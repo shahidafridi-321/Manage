@@ -4,6 +4,7 @@ import { Nav } from "./components/Nav";
 import { Hero } from "./components/Hero";
 import { Testimonial } from "./components/Testimonial";
 import { Managment } from "./components/Managment";
+import { CTA } from "./components/CTA";
 
 
 import "./index.css";
@@ -14,5 +15,6 @@ createRoot(document.getElementById("root")).render(
 		<Hero />
     <Testimonial />
     <Managment/>
+    <CTA />
 	</StrictMode>
 );
