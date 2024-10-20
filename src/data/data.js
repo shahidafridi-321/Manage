@@ -33,3 +33,31 @@ export const testimonialDiscriptionItemsData = [
 			"Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution. ",
 	},
 ];
+
+export const cardsItemsData = [
+	{
+		imagePath:
+			"https://raw.githubusercontent.com/bradtraversy/tailwind-landing-page/refs/heads/main/img/avatar-anisha.png",
+		title: "Anisha Li",
+		discription: `“Manage has supercharged our team’s workflow. The ability to
+							maintain visibility on larger milestones at all times keeps
+							everyone motivated.”`,
+	},
+	{
+		imagePath:
+			"https://raw.githubusercontent.com/bradtraversy/tailwind-landing-page/refs/heads/main/img/avatar-ali.png",
+		title: "Ali Bravo",
+		discription: `“We have been able to cancel so many other subscriptions since
+							using Manage. There is no more cross-channel confusion and
+							everyone is much more focused.”`,
+	},
+
+	{
+		imagePath:
+			"https://raw.githubusercontent.com/bradtraversy/tailwind-landing-page/refs/heads/main/img/avatar-richard.png",
+		title: "Richard Watts",
+		discription: `“Manage has supercharged our team’s workflow. The ability to
+							maintain visibility on larger milestones at all times keeps
+							everyone motivated.”`,
+	},
+];
