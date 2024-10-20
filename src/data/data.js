@@ -61,3 +61,14 @@ export const cardsItemsData = [
 							everyone motivated.”`,
 	},
 ];
+
+export const socialLinksData = [
+	"https://raw.githubusercontent.com/bradtraversy/tailwind-landing-page/refs/heads/main/img/icon-facebook.svg",
+	"https://raw.githubusercontent.com/bradtraversy/tailwind-landing-page/refs/heads/main/img/icon-instagram.svg",
+	"https://raw.githubusercontent.com/bradtraversy/tailwind-landing-page/refs/heads/main/img/icon-pinterest.svg",
+	"https://raw.githubusercontent.com/bradtraversy/tailwind-landing-page/refs/heads/main/img/icon-twitter.svg",
+	"https://raw.githubusercontent.com/bradtraversy/tailwind-landing-page/refs/heads/main/img/icon-youtube.svg",
+];
+
+export let linksListOne = ["Home", "Pricing", "Product", "About Us"];
+export let linksListTwo = ["Careers", "Privacy Policy", "Community"];
