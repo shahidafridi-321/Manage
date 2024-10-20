@@ -8,6 +8,19 @@
 	<body>
 		<div id="root"></div>
 		<script type="module" src="/src/main.jsx"></script>
-		<script src="/Manage/src/scripts/script.js"></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", () => {
+				let btn = document.getElementById("menu-btn");
+				let nav = document.getElementById("menu");
+
+				if (btn && nav) {
+					btn.addEventListener("click", () => {
+						btn.classList.toggle("open");
+						nav.classList.toggle("flex");
+						nav.classList.toggle("hidden");
+					});
+				}
+			});
+		</script>
 	</body>
 </html>
